@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+#container {
+	font-size: 14px;
+	font-family: 맑은고딕;
+	text-align: center;
+	width: 1900px;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+h2 {
+	border-bottom: 1px solid gray;
+	padding: 100px 0 100px 0;
+}
+
+#navi {
+	text-align: left;
+	padding: 30px 150px 100px 250px;
+	margin-top: 80px;
+	width: 100px;
+	margin-right: 0px;
+	font-size: 16px;
+	float: left;
+}
+
+ul li {
+		list-style: none;
+}
+
+img {
+	width: 300px;
+	height: 400px;
+}
+
+#content {
+	padding-top: 30px;
+	float: left;
+}
+
+#foot {
+	padding-top: 50px;
+	clear: both;
+}
