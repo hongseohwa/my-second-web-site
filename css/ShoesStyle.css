@@ -7,6 +7,14 @@
 	width: 1900px;
 }
 
+#mode {
+	float: right;
+	margin : 20px 20px 0 0;
+	font-size: 12px;
+	word-spacing: 15px;
+}
+
+
 a {
 	color: black;
 	text-decoration: none;
@@ -21,10 +29,14 @@ h2 {
 	text-align: left;
 	padding: 30px 150px 100px 250px;
 	margin-top: 80px;
-	width: 100px;
+	width: 150px;
 	margin-right: 0px;
 	font-size: 16px;
 	float: left;
+}
+
+ul {
+	padding-left: 0;
 }
 
 ul li {
@@ -39,6 +51,12 @@ img {
 #content {
 	padding-top: 30px;
 	float: left;
+}
+
+#content p {
+	font-size: 24px;
+	font-weight: bold;
+	width: 914px;
 }
 
 #foot {

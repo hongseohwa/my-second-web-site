@@ -3,23 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>WISHLIST</title>
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
 <link rel = "stylesheet" href = "../css/ShoesStyle.css">
+<script src = "../js/index.js"></script>
 </head>
 <body>
 	<div id = "container">
 		<header id = "head">
-			<h2><a href = "../index.html">WISHLIST</a></h2>
+			<div id = "mode">
+				<input type = "button" value = "light" onclick = "modeChange(this)">
+			</div>
+			<hgroup>
+				<h2><a href = "../index.html">WISHLIST</a></h2>
+			</hgroup>
 		</header>
 		<nav id = "navi">
 			<ul>
-				<li><a href = "../index.html">All</a></li>
 				<li><a href = "../top/Top.html">TOP</a></li>
 				<li><a href = "../bottom/Bottom.html">BOTTOM</a></li>
 				<li><a href = "Shoes.html">SHOES</a></li>
 				<li><a href = "../acc/Acc.html">ACC</a></li>
+				<li><a href = "../purchasingItem/PurchasingItem.html">PURCHASING ITEM</a></li>
 			</ul>
 		</nav>
 		<section id = "content">
+			<p>SHOES</p>
 			<table>
 				<tr>
 					<td><a href = "https://kream.co.kr/products/15248" target = "_blank"><img src = "../ShoesImages/AdidasSambaBlack.webp" title = "Adidas Samba OG Black White Gum"></a></td>

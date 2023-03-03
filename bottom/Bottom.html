@@ -3,23 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>WISHLIST</title>
-<link rel = "stylesheet" href = "../css/BottomStyle.css">
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<link rel = "stylesheet" href = "../css/IndexStyle.css">
+<script src = "../js/index.js"></script>
 </head>
 <body>
 	<div id = "container">
 		<header id = "head">
-			<h2><a href = "../index.html">WISHLIST</a></h2>
+			<div id = "mode">
+				<input type = "button" value = "light" onclick = "modeChange(this)">
+			</div>
+			<hgroup>
+				<h2><a href = "../index.html">WISHLIST</a></h2>
+			</hgroup>
 		</header>
 		<nav id = "navi">
 			<ul>
-				<li><a href = "../index.html">All</a></li>
 				<li><a href = "../top/Top.html">TOP</a></li>
 				<li><a href = "Bottom.html">BOTTOM</a></li>
 				<li><a href = "../shoes/Shoes.html">SHOES</a></li>
 				<li><a href = "../acc/Acc.html">ACC</a></li>
+				<li><a href = "../purchasingItem/PurchasingItem.html">PURCHASING ITEM</a></li>
 			</ul>
 		</nav>
 		<section id = "content">
+			<p>BOTTOM</p>
 			<table>
 				<tr>
 					<td><a href = "https://www.threetimes.kr/product/tidy-pleats-skirt/4085/category/175/display/1/" target = "_blank"><img src = "../BottomImages/TidyPleatsSkirt.jpg" title = "Tidy pleats skirt"></a></td>

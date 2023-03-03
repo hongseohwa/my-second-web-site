@@ -3,23 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>WISHLIST</title>
-<link rel = "stylesheet" href = "../css/TopStyle.css">
+<script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+<link rel = "stylesheet" href = "../css/IndexStyle.css">
+<script src = "../js/index.js"></script>
 </head>
 <body>
 	<div id = "container">
 		<header id = "head">
-			<h2><a href = "../index.html">WISHLIST</a></h2>
+			<div id = "mode">
+				<input type = "button" value = "light" onclick = "modeChange(this)">
+			</div>
+			<hgroup>
+				<h2><a href = "../index.html">WISHLIST</a></h2>
+			</hgroup>
 		</header>
 		<nav id = "navi">
 			<ul>
-				<li><a href = "../index.html">All</a></li>
 				<li><a href = "Top.html">TOP</a></li>
 				<li><a href = "../bottom/Bottom.html">BOTTOM</a></li>
 				<li><a href = "../shoes/Shoes.html">SHOES</a></li>
 				<li><a href = "../acc/Acc.html">ACC</a></li>
+				<li><a href = "../purchasingItem/PurchasingItem.html">PURCHASING ITEM</a></li>
 			</ul>
 		</nav>
 		<section id = "content">
+			<p>TOP</p>
 			<table>
 				<tr>
 					<td><a href = "https://www.threetimes.kr/product/2nd-pre-order-jewel-tee/3517/category/174/display/1/" target = "_blank"><img src = "../TopImages/JewelTee.jpg" title = "Jewel tee"></a></td>
